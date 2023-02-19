@@ -1,7 +1,6 @@
 
 /* ----------START HEADER----------- */
 
-
 #header{
     display: flex; flex-direction: row; justify-content: space-between; align-items: center;
         background-image: linear-gradient(135deg, rgb(175, 0, 0), transparent 90%,transparent);
@@ -35,7 +34,7 @@ a:hover {color: black; text-shadow: 5px 5px 5px black;}
 /* ----------END HEADER----------- */
 /* ----------START MAIN----------- */
 
- .body{
+.body{
     display: flex; flex-direction: column;
 }
 
@@ -60,14 +59,12 @@ a:hover {color: black; text-shadow: 5px 5px 5px black;}
         font-size: 25px;
         font-family: 'Montserrat', sans-serif;
         font-family: 'Orbitron', sans-serif;  
-        
     }
 
     .nav-box-1:hover{
         opacity: 100%;
         border: 3px solid chartreuse;
         border-radius: 25px;
-        /* margin-right: 0px; */
         box-shadow: 0px 0px 20px 5px black;
         transform: scale(1.05);
         transition: all .4s ease-out;
@@ -95,7 +92,6 @@ a:hover {color: black; text-shadow: 5px 5px 5px black;}
         opacity: 100%;
         border: 3px solid chartreuse;
         border-radius: 25px;
-        /* margin-right: 25px; */
         box-shadow: 0px 0px 20px 5px black;
         transform: scale(1.05);
         transition: all 0.4s ease-out;;
@@ -123,7 +119,6 @@ a:hover {color: black; text-shadow: 5px 5px 5px black;}
         opacity: 100%;
         border: 3px solid chartreuse;
         border-radius: 25px;
-        /* margin-left: 25px; */
         box-shadow: 0px 0px 20px 5px black;
         transform: scale(1.05);
         transition: all 0.4s ease-out;;
@@ -151,7 +146,6 @@ a:hover {color: black; text-shadow: 5px 5px 5px black;}
         opacity: 100%;
         border: 3px solid chartreuse;
         border-radius: 25px;
-        /* margin-left: 50px; */
         box-shadow: 0px 0px 20px 5px black;
         transform: scale(1.05);
         transition: all 0.4s ease-out;;
@@ -159,17 +153,20 @@ a:hover {color: black; text-shadow: 5px 5px 5px black;}
 
 .main{
     display:flex; justify-content: center;
-    /* margin-left: 10px; margin-right: 10px; */
 }
 
     .main-cont{
         display: flex; flex-direction: row; justify-content: space-between; align-items: center;
         border: 1px solid rgb(175, 0, 0); border-radius: 25px;
-        padding: 15px; margin-top: 50px;
+        padding: 15px; margin-top: 50px; margin-bottom: 50px;
         width: 60%;
         background-color: rgb(235, 235, 235);
         box-shadow: 0px 0px 20px 5px black;
-        /* height: 400px; */
+    }
+
+    .text-title{
+        color: rgb(175, 0, 0);
+        text-decoration: underline;
     }
 
     .text{
@@ -178,8 +175,8 @@ a:hover {color: black; text-shadow: 5px 5px 5px black;}
         color: black;
         font-family: Arial, Helvetica, sans-serif; font-weight: bold;
     }
+
     .pic{
-        display: flex;
         width: 200px; height: 250px;
         margin-right: 60px;
         background-image: url("./images/db_laugh.jpg");
@@ -191,18 +188,32 @@ a:hover {color: black; text-shadow: 5px 5px 5px black;}
         box-shadow: 0px 0px 10px 4px rgb(0, 0, 0);
     }
 
+    .pic-training{
+        background-image: url("./images/drb-fly.jpeg");
+        background-size: 205px 295px;
+    }
+
+    .pic-portfolio{
+        background-image: url("./images/portfolio.png");
+        background-size: 355px 255px;
+    }
+
+    .port-pics{display: flex;
+        float: left; align-items: center;
+    }
+
+    .pic-resume{
+        background-image: url("./images/resume.png");
+        background-size: 275px 255px;
+    }
+
+    .pic-contact{
+        background-image: url("./images/db-hunt.jpg");
+        background-size: 255px 255px;
+    }
+
+
 /* ----------END MAIN----------- */
-/* ----------START ABOUT----------- */
-/* .about-text{
-    display: flex; flex-direction: row; justify-content: start;
-    border: 1px solid white; border-radius: 25px;
-    padding: 15px;
-    width: 90%; height: 400px;
-    background-color: rgb(25, 25, 25); color: white;
-} */
-
-
-/* -----------END ABOUT----------- */
 /* ----------START FOOTER----------- */
 
 .footer{
@@ -210,13 +221,10 @@ a:hover {color: black; text-shadow: 5px 5px 5px black;}
     bottom: 0; 
     position: fixed;
     width: 100%;
-    /* border: 2px solid rgb(175, 0, 0);  */
 }
 
 .footer-content{display: flex; justify-content: center;
     height: 75px;
-    /* padding: 3px; */
- 
     border-radius: 40px;
     background-color: white;
 }
