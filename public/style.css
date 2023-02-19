@@ -1,0 +1,222 @@
+
+/* ----------START HEADER----------- */
+
+
+#header{
+    display: flex; flex-direction: row; justify-content: space-between; align-items: center;
+        background-image: linear-gradient(135deg, rgb(175, 0, 0), transparent 90%,transparent);
+        top: 0; position: fixed; width: 100%;
+        background-color: black;
+}
+
+#l-header{
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    text-shadow: 2px 2px black;
+    padding-left: 10px;
+    color: white;
+}
+
+#r-header{display: flex;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    padding-right: 10px;
+}
+
+a:link {color: black; text-decoration: none;}
+
+a:visited {color: black; text-decoration: none;}
+
+a:hover {color: black; text-shadow: 5px 5px 5px black;}
+
+/* ----------END HEADER----------- */
+/* ----------START MAIN----------- */
+
+ .body{
+    display: flex; flex-direction: column;
+}
+
+.nav-boxes{
+    display: flex; flex-direction: row; justify-content: center;
+    margin-top: 40px;
+}
+
+    .nav-box-1{display: flex;
+        justify-content: center; align-items:flex-end;
+        margin: 5px;
+        border: 3px solid rgb(175, 0, 0);
+        border-radius: 25px;
+        box-shadow: 0px 0px 5px 2px black;
+        width: 200px; height: 250px;
+        background-image: url("./images/bookFig.jpg");
+        background-position: center;
+        background-size: 205px 255px;
+        background-repeat: no-repeat;
+        opacity: 60%;
+        cursor: pointer;
+        font-size: 25px;
+        font-family: 'Montserrat', sans-serif;
+        font-family: 'Orbitron', sans-serif;  
+        
+    }
+
+    .nav-box-1:hover{
+        opacity: 100%;
+        border: 3px solid chartreuse;
+        border-radius: 25px;
+        /* margin-right: 0px; */
+        box-shadow: 0px 0px 20px 5px black;
+        transform: scale(1.05);
+        transition: all .4s ease-out;
+    }
+
+    .nav-box-2{display: flex;
+        justify-content: center; align-items:flex-end;
+        margin: 5px;
+        border: 3px solid rgb(175, 0, 0);
+        border-radius: 25px;
+        box-shadow: 0px 0px 5px 2px black;
+        width: 200px; height: 250px;
+        background-image: url("./images/boxFig.jpg");
+        background-position: center;
+        background-size: 205px 255px;
+        background-repeat: no-repeat;
+        opacity: 60%;
+        cursor: pointer;
+        font-size: 25px;
+        font-family: 'Montserrat', sans-serif;
+        font-family: 'Orbitron', sans-serif;  
+    }
+
+    .nav-box-2:hover{
+        opacity: 100%;
+        border: 3px solid chartreuse;
+        border-radius: 25px;
+        /* margin-right: 25px; */
+        box-shadow: 0px 0px 20px 5px black;
+        transform: scale(1.05);
+        transition: all 0.4s ease-out;;
+    }
+
+    .nav-box-3{display: flex;
+        justify-content: center; align-items:flex-end;
+        margin: 5px;
+        border: 3px solid rgb(175, 0, 0);
+        border-radius: 25px;
+        box-shadow: 0px 0px 5px 2px black;
+        width: 200px; height: 250px;
+        background-image: url("./images/fileFig.jpg");
+        background-position: center;
+        background-size: 205px 255px;
+        background-repeat: no-repeat;
+        opacity: 60%;
+        cursor: pointer;
+        font-size: 25px;
+        font-family: 'Montserrat', sans-serif;
+        font-family: 'Orbitron', sans-serif;  
+    }
+
+    .nav-box-3:hover{
+        opacity: 100%;
+        border: 3px solid chartreuse;
+        border-radius: 25px;
+        /* margin-left: 25px; */
+        box-shadow: 0px 0px 20px 5px black;
+        transform: scale(1.05);
+        transition: all 0.4s ease-out;;
+    }
+
+    .nav-box-4{display: flex;
+        justify-content: center; align-items:flex-end;
+        margin: 5px;
+        border: 3px solid rgb(175, 0, 0);
+        border-radius: 25px;
+        box-shadow: 0px 0px 5px 2px black;
+        width: 200px; height: 250px;
+        background-image: url("./images/atFig.jpg");
+        background-position: center;
+        background-size: 205px 255px;
+        background-repeat: no-repeat;
+        opacity: 60%;
+        cursor: pointer;
+        font-size: 25px;
+        font-family: 'Montserrat', sans-serif;
+        font-family: 'Orbitron', sans-serif;  
+    }
+
+    .nav-box-4:hover{
+        opacity: 100%;
+        border: 3px solid chartreuse;
+        border-radius: 25px;
+        /* margin-left: 50px; */
+        box-shadow: 0px 0px 20px 5px black;
+        transform: scale(1.05);
+        transition: all 0.4s ease-out;;
+    }
+
+.main{
+    display:flex; justify-content: center;
+    /* margin-left: 10px; margin-right: 10px; */
+}
+
+    .main-cont{
+        display: flex; flex-direction: row; justify-content: space-between; align-items: center;
+        border: 1px solid rgb(175, 0, 0); border-radius: 25px;
+        padding: 15px; margin-top: 50px;
+        width: 60%;
+        background-color: rgb(235, 235, 235);
+        box-shadow: 0px 0px 20px 5px black;
+        /* height: 400px; */
+    }
+
+    .text{
+        display: flex; 
+        width: 70%;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif; font-weight: bold;
+    }
+    .pic{
+        display: flex;
+        width: 200px; height: 250px;
+        margin-right: 60px;
+        background-image: url("./images/db_laugh.jpg");
+        background-position: center;
+        background-size: 205px 255px;
+        background-repeat: no-repeat;
+        border-radius: 50%;
+        border: 2px solid rgb(175, 0, 0);
+        box-shadow: 0px 0px 10px 4px rgb(0, 0, 0);
+    }
+
+/* ----------END MAIN----------- */
+/* ----------START ABOUT----------- */
+/* .about-text{
+    display: flex; flex-direction: row; justify-content: start;
+    border: 1px solid white; border-radius: 25px;
+    padding: 15px;
+    width: 90%; height: 400px;
+    background-color: rgb(25, 25, 25); color: white;
+} */
+
+
+/* -----------END ABOUT----------- */
+/* ----------START FOOTER----------- */
+
+.footer{
+    display: flex; flex-direction: row; justify-content: center; align-items: center;
+    bottom: 0; 
+    position: fixed;
+    width: 100%;
+    /* border: 2px solid rgb(175, 0, 0);  */
+}
+
+.footer-content{display: flex; justify-content: center;
+    height: 75px;
+    /* padding: 3px; */
+ 
+    border-radius: 40px;
+    background-color: white;
+}
