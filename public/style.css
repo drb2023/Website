@@ -9,7 +9,7 @@
 }
 
 #l-header{
-    font-size: 1.4vw;
+    font-size: 30px;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Orbitron', sans-serif;
     text-shadow: 2px 2px black;
@@ -18,7 +18,7 @@
 }
 
 #r-header{display: flex;
-    font-size: 1.4vw;
+    font-size: 30px;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Orbitron', sans-serif;
     color: white;
@@ -56,7 +56,7 @@ a:hover {color: black; text-shadow: 5px 5px 5px black;}
         background-repeat: no-repeat;
         opacity: 60%;
         cursor: pointer;
-        font-size: 1.4vw;
+        font-size: 25px;
         font-family: 'Montserrat', sans-serif;
         font-family: 'Orbitron', sans-serif;  
     }
@@ -83,7 +83,7 @@ a:hover {color: black; text-shadow: 5px 5px 5px black;}
         background-repeat: no-repeat;
         opacity: 60%;
         cursor: pointer;
-        font-size: 1.4vw;
+        font-size: 25px;
         font-family: 'Montserrat', sans-serif;
         font-family: 'Orbitron', sans-serif;  
     }
@@ -110,7 +110,7 @@ a:hover {color: black; text-shadow: 5px 5px 5px black;}
         background-repeat: no-repeat;
         opacity: 60%;
         cursor: pointer;
-        font-size: 1.4vw;
+        font-size: 25px;
         font-family: 'Montserrat', sans-serif;
         font-family: 'Orbitron', sans-serif;  
     }
@@ -136,7 +136,7 @@ a:hover {color: black; text-shadow: 5px 5px 5px black;}
         background-repeat: no-repeat;
         opacity: 60%;
         cursor: pointer;
-        font-size: 1.4vw;
+        font-size: 25px;
         font-family: 'Montserrat', sans-serif;
         font-family: 'Orbitron', sans-serif;  
     }
@@ -174,7 +174,7 @@ a:hover {color: black; text-shadow: 5px 5px 5px black;}
     .text{
         display: flex; 
         width: 70%;
-        font-size: 1.5vw;
+        font-size: 25px;
         color: black;
         font-family: Arial, Helvetica, sans-serif;
     }
@@ -221,14 +221,16 @@ a:hover {color: black; text-shadow: 5px 5px 5px black;}
 
 .footer{
     display: flex; flex-direction: row; justify-content: center; align-items: center;
+    align-items: center;
     bottom: 0;
-    margin-top: 100px;
     position: fixed;
     width: 100%;
     background-color: white;
 }
 
-.footer-content{display: flex; justify-content: center;
-    height: 4vw;
+.footer-content{
+    display: flex; justify-content: center;
+    align-items: center;
+    height: 75px; width: 275px;
     border-radius: 10%;
 }
