@@ -5,8 +5,8 @@ const TrainingBody = () => {
             <section className="main">
                 <div className="main-cont">
                     <div className="text">
-                        <p>
-                            My Education and Training:
+                        <div>
+                            <b>My Education and Training:</b>
                             <br/>
                             <br/>
                             <p className="text-title">Fullstack Academy - Colorado State University: Jan 2023 - April 2023</p>
@@ -37,7 +37,7 @@ const TrainingBody = () => {
                             Fully trained and licensed to operate the M1A1 Abrams Main Battle Tank.
                             <br/>
                             <br/>
-                        </p>
+                        </div>
                     </div>
                     <div className="pic pic-training"></div>
                 </div>

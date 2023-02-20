@@ -16,23 +16,18 @@ const App = () => {
     
     const [body, setBody] = useState(Body);
     function changeToTraining() {
-        console.log("The callback func ran");
         setBody(TrainingBody)
     }
     function changeToPortfolio() {
-        console.log("The callback func ran");
         setBody(PortfolioBody)
     }
     function changeToResume() {
-        console.log("The callback func ran");
         setBody(ResumeBody)
     }
     function changeToContact() {
-        console.log("The callback func ran");
         setBody(ContactBody)
     }
     function changeToIndex() {
-        console.log("The callback func ran");
         setBody(Body)
     }
     
