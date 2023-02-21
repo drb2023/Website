@@ -231,5 +231,5 @@ a:hover {color: black; text-shadow: 5px 5px 5px black;}
 .footer-content{
     display: flex; justify-content: center;
     align-items: center;
-    height: 5vh; width: 10svw;
+    height: 5em; width: 15em;
 }
