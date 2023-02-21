@@ -4,7 +4,7 @@
 #header{
     display: flex; flex-direction: row; justify-content: space-between; align-items: center;
         background-image: linear-gradient(135deg, rgb(175, 0, 0), transparent 90%,transparent);
-        top: 0; position: fixed; width: 100%;
+        top: 0; left: 0; right: 0; position: fixed; width: 100%;
         background-color: black;
 }
 
@@ -231,6 +231,6 @@ a:hover {color: black; text-shadow: 5px 5px 5px black;}
 .footer-content{
     display: flex; justify-content: center;
     align-items: center;
-    height: 75px; width: 275px;
-    border-radius: 10%;
+    height: 10vh; width: auto;
+    /* background-color: black; */
 }
