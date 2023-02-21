@@ -224,13 +224,12 @@ a:hover {color: black; text-shadow: 5px 5px 5px black;}
     align-items: center;
     bottom: 0;
     position: fixed;
-    width: 100%;
+    width: 100vw;
     background-color: white;
 }
 
 .footer-content{
     display: flex; justify-content: center;
     align-items: center;
-    height: 10vh; width: auto;
-    /* background-color: black; */
+    height: 5vh; width: 10svw;
 }
